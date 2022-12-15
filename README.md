@@ -3,4 +3,4 @@ An imbalanced classification problem is where there is a highly skewed distribut
 resampling techniques are used to adjust the class distribution of training data (the ratio between the different classes) to feed more balanced data into predictive models; thereby creating a new transformed version of the training set with a different class distribution. Oversampling, Undersampling and combination of them are applied. To measure performance, K-fold cross validation is utilized but cross validation after resampling incorrectly leads to overoptimism and overfitting since the class distribution of the original data is different from the sampled training set. The correct approach is to
 resample within K-fold cross validation. These techniques are discussed in details
 
-Python functions and data files to run this notebook are in my [Github](https://github.com/MehdiRezvandehy/Customer_Chrun_Prediction.git) page.
+Python functions and data files to run this notebook are in my [Github](https://github.com/MehdiRezvandehy/Imbalanced_Classes_Classification.git) page.
